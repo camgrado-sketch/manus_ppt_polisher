@@ -1,3 +1,8 @@
+---
+name: ppt-template-refiner
+description: 专门用于读取标准 PPT 模板（.pptx），提取设计规范并根据用户输入润色排版输出 PPT。
+---
+
 # Skill: PPT Template Refiner & Polisher
 
 ## Overview
@@ -10,7 +15,7 @@
 ## Execution Steps
 
 1. **模版解析 (Template Parsing)**
-   - 读取用户上传的 `.pptx` 模板文件，识别幻灯片母版（Slide Masters）以及常用的布局页面（Layouts），特别是封面页、目录页、过渡页、图文内容页和结尾页的占位符（Placeholders）。
+   - 读取用户上传的 `.pptx` 模板文件，识别幻灯片母版（Slide Masters）以及常用的布局页面（Layouts），特别是封面页、目录页、过渡页、图文内容页 and 结尾页的占位符（Placeholders）。
 
 2. **内容润色 (Content Polishing)**
    - 针对用户提供的文本，进行结构化提炼：将大段文字提炼为金句标题、核心观点（不超过 20 字）以及 3-5 点精简的 Bullet Points。
